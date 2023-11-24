@@ -19,5 +19,5 @@ etc = EtC(14, 16) # the image size is 224 and EtC uses block size 16 => 16 * 14 
 
 # then in your training loop
 for X, y in dataloader:
-	X = etc(X)
+    X = etc(X)
 ```
